@@ -61,12 +61,6 @@
     <servlet-class>org.springframework.web.context.support.HttpRequestHandlerServlet</servlet-class>
   </servlet>
 
-  <servlet>
-    <servlet-name>api</servlet-name>
-    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
-    <load-on-startup>1</load-on-startup>
-  </servlet>
-
   <servlet-mapping>
     <servlet-name>singleSignOnService</servlet-name>
     <url-pattern>/SingleSignOnService</url-pattern>
@@ -75,11 +69,6 @@
   <servlet-mapping>
     <servlet-name>authnResponder</servlet-name>
     <url-pattern>/AuthnResponder</url-pattern>
-  </servlet-mapping>
-
-  <servlet-mapping>
-    <servlet-name>api</servlet-name>
-    <url-pattern>/api/*</url-pattern>
   </servlet-mapping>
 
   <welcome-file-list>
