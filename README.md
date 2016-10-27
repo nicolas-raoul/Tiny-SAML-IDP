@@ -24,18 +24,9 @@ The OAuth playground - part of the REST API component - can be used to test the 
 
 Features
 --------
-- A SAML2 complient Identity Provider. The IdP will authenticate known users, providing known attributes to the SP. A REST api allows for the 'just-in-time' manipulation of:
-  * user credentials (either a specific username & password or allow any username and password)
-  * user role
-  * any user attributes
-  * signing certificate
-  * entityID
-  * ACS endpoint
+- A SAML2 complient Identity Provider. The IdP will authenticate known users, providing known attributes to the SP.
 
-- A SAML2 complient Service Provider. The SP displays the attributes as these were recieved from an IdP. A REST api allows for the 'just-in-time' manipulation of:
-  * entityID
-  * signing certificate  
-  * sso Service URL
+- A SAML2 complient Service Provider. The SP displays the attributes as these were received from an IdP.
 
 Defaults
 --------
@@ -56,7 +47,6 @@ The default Identity Provider configuration is as follows:
     * "urn:oid:1.3.6.1.4.1.1076.20.100.10.10.1" is "guest"
 * There is a default certificate and private key available
 * By default the ACS endpoint should be provided by the SP as an attribute in the AuthnRequest.
-  If the ACS endpoint is set using the IdP api this is not neccesary. Use of the api overrides values set in AuthnRequests
 
 The default Service Provider configuration is as follows:
 

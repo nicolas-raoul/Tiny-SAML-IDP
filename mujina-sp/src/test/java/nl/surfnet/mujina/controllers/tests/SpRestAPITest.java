@@ -19,7 +19,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = { "classpath:applicationContext-sp-config.xml", "classpath:applicationContext-property-mappings.xml",
-    "classpath:applicationContext-spring-security.xml", "classpath:api-servlet.xml" })
+    "classpath:applicationContext-spring-security.xml" })
 public class SpRestAPITest {
 
   public static final String SIGN_ON_SERVICE_URL = "http://www.test.nl/";
