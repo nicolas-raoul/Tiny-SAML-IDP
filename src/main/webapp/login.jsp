@@ -22,26 +22,15 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-  <title>Mujina Login Page</title>
+  <title>Login Page</title>
 </head>
 <body onload='document.login.j_username.focus();'>
 
-<pre style="front-weight: bold;">
-___  ___        _  _
-|  \/  |       (_)(_)
-| .  . | _   _  _  _  _ __    __ _
-| |\/| || | | || || || '_ \  / _` |
-| |  | || |_| || || || | | || (_| |
-\_|  |_/ \__,_|| ||_||_| |_| \__,_|
-              _/ |
-             |__/
-
-          Identity Provider
-</pre>
+<h1>Tiny SAML IDP</h1>
 
 <c:if test="${not empty SPRING_SECURITY_LAST_EXCEPTION }">
-  <p><font color='red'>Your login attempt was not successful, try again.<br/><br/>Reason: <c:out
-      value="${SPRING_SECURITY_LAST_EXCEPTION.message}"/></font></p>
+  <p><font color='red'>Your login attempt was not successful, try again.<br/><br/>
+  Reason: <c:out value="${SPRING_SECURITY_LAST_EXCEPTION.message}"/></font></p>
 </c:if>
 
 <h3>Login with Username and Password</h3>

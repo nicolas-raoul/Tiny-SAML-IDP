@@ -26,26 +26,13 @@
 </head>
 <body>
 
-<pre>
-___  ___        _  _
-|  \/  |       (_)(_)
-| .  . | _   _  _  _  _ __    __ _
-| |\/| || | | || || || '_ \  / _` |
-| |  | || |_| || || || | | || (_| |
-\_|  |_/ \__,_|| ||_||_| |_| \__,_|
-              _/ |
-             |__/
+<h1>Tiny SAML IDP</h1>
 
-          Identity Provider
-</pre>
-
-<h3>This page is not secured.</h3>
+<h3>Public page</h3>
 
 <a href="user.jsp">protected IDP user page</a> <br/>
-<a href="admin.jsp">protected IDP admin page</a> <br/>
-<a href="j_spring_security_logout">End your session with the Identity Provider</a> <i>Does not end your session with the
-  SP</i> <br/>
-<a href="edit_attr.jsp">Edit the attributes that are stored in the browsers cookie</a>
+<a href="j_spring_security_logout">Logout</a> <i>End your session with the Identity Provider. Does not end your session with the
+  SP</i>
 
 <h3>Your current Spring Security Credentials are:</h3>
 

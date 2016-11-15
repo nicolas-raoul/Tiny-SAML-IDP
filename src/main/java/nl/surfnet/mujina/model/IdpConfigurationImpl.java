@@ -105,7 +105,9 @@ public class IdpConfigurationImpl extends CommonConfigurationImpl implements Idp
     public AcsEndpoint getAcsEndpoint() { return acsEndpoint; }
 
   @Override
-    public void setAcsEndpoint(final AcsEndpoint acsEndpoint) { this.acsEndpoint = acsEndpoint; }
+  public void setAcsEndpoint(final AcsEndpoint acsEndpoint) {
+	this.acsEndpoint = acsEndpoint;
+  }
 
 
   @Override

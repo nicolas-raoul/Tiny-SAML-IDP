@@ -32,7 +32,7 @@
   <logger name="org.eclipse.jetty" level="warn">
     <appender-ref ref="console" />
   </logger>
-  <logger name="nl.surfnet.coin" level="debug">
+  <logger name="nl.surfnet" level="debug">
     <appender-ref ref="console" />
   </logger>
   <root level="info">

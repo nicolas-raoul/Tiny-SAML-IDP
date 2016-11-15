@@ -22,22 +22,11 @@
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>Mujina IdP User Page</title>
+  <title>User Page</title>
 </head>
 <body>
 
-<pre style="front-weight: bold;">
-___  ___        _  _
-|  \/  |       (_)(_)
-| .  . | _   _  _  _  _ __    __ _
-| |\/| || | | || || || '_ \  / _` |
-| |  | || |_| || || || | | || (_| |
-\_|  |_/ \__,_|| ||_||_| |_| \__,_|
-              _/ |
-             |__/
-
-          Identity Provider
-</pre>
+<h1>Tiny SAML IDP</h1>
 
 <h1>Identity Provider User Page</h1>
 
@@ -45,7 +34,7 @@ ___  ___        _  _
 
 <a href="index.jsp">unprotected IDP home page</a> <br/>
 <a href="admin.jsp">protected IDP admin page</a> <br/>
-<a href="j_spring_security_logout">End your session with the Identity Provider</a> <i>Does not end your session with the
+<a href="j_spring_security_logout">Logout</a> <i>End your session with the Identity Provider. Does not end your session with the
   SP</i> <br/>
 
 <h3>Your current Spring Security Credentials are:</h3>
