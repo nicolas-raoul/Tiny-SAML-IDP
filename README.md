@@ -1,3 +1,5 @@
+(not maintained)
+
 Tiny SAML IDP
 ======
 
